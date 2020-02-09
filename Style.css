@@ -1,0 +1,53 @@
+body {
+    background-image: linear-gradient(yellow, white);
+    width: 1000px;
+    height: 770px;
+}
+.task {
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    border: 4px solid red;
+    /*border-radius: 5%;*/
+}
+.add_btn {
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    height: 57px;
+    width: 70px;
+    border: 4px solid red;
+    font-size: 20px;
+}
+
+.add_btn:hover {
+    background-color: red;
+}
+.tasks {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+.Task {
+    width: 300px;
+    height: 40px;
+    border: 4px solid black;
+    background-color: #87cefa;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    position: absolute;
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    left: 363px;
+}
+
